@@ -1,6 +1,3 @@
-# Unity-StoreDataOnServer
-An example on how to store data from within a Unity game on your server
-
 # Motivation
 Psychological studies are often conducted over the internet. For questionnaire studies and experiments using PsychoPy, there exist a variety of services that will host your study and store data for you. However, when conducting a study using a Unity game, to my knowledge there exists no such service and one needs to host and collect data using one’s own server. This project gives a basic example on how to do this. 
 
