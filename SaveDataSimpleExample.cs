@@ -21,6 +21,6 @@ public class SaveDataSimpleExample : MonoBehaviour
         WWWForm form = new WWWForm();
         form.AddField("name", filename);
         form.AddField("dataToSave", data);
-        WWW www = new WWW("https://www.rubo-research.com/Study1Data/SaveData.php", form);
+        WWW www = new WWW(phpLocation, form);
     }
 }
