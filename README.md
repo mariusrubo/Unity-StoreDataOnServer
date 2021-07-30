@@ -6,5 +6,5 @@ The project consists of 1) a php script that you will need to place on your serv
 
 # Additional Remarks
 * Personally I would recommend to distribute the Unity software as WebGL application so that participants can directly access it over a browser. The easiest place to host it may be Github Pages. However, note that Github Pages does not allow server-side scripting, so the php script will have to be located elsewhere. It does not matter if your game and the php script are located on the same server.  
-* Note that in this example, data is not protected. If you collect any personal data, make sure to encrypt it before sending it to your server (not covered here). 
+* Note that in this example, data is not protected. If you collect any personal data, make sure to encrypt it before sending it to your server (not covered here, but I recommend looking at .NET's built-in features: https://docs.microsoft.com/en-us/dotnet/standard/security/encrypting-data). 
 
